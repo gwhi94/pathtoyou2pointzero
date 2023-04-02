@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.4/css/uikit.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="uk-section uk-section-primary uk-flex uk-flex-middle uk-flex-column uk-animation-fade" uk-height-viewport
+    id="landingSection">
+    <div class="uk-width-1-1 uk-text-center bg-white">
+      <img src="assets/landing.svg">
+    </div>
+    <div class="uk-width-1-1 uk-text-center ">
+      <a class="uk-button uk-button-primary uk-button-large myCta" href="#hookSection" uk-scroll>Take the first step</a>
+    </div>
+  </div>
+
+  <div class="uk-section uk-section-primary uk-flex uk-flex-middle uk-animation-fade bg-white" uk-height-viewport
+    id="hookSection">
+    <div class="uk-width-1-1 uk-text-center">
+      <h1 class="uk-heading-large grey" uk-scrollspy="cls: uk-animation-slide-left; repeat: false">Congratulations, you have taken the first step</h1>
+      <p class="uk-heading-medium grey" uk-scrollspy="cls: uk-animation-slide-right; repeat: false;delay: 2000">Let's make some changes.</p>
+      <p class="uk-heading-medium grey" uk-scrollspy="cls: uk-animation-fade; repeat: false;delay: 4000">Do them for one week.</p>
+      <p class="uk-heading-medium grey" uk-scrollspy="cls: uk-animation-fade; repeat: false;delay: 6000">You will not look back and the path will become clear.</p>
+      <p class="uk-heading-medium grey" uk-scrollspy="cls: uk-animation-fade; repeat: false;delay: 8000">Trust me.</p>
+      <a class="uk-button uk-button-primary uk-button-large myCta bg-blue white" uk-scrollspy="cls: uk-animation-fade; repeat: false;delay: 8000" href="#introSection" uk-scroll>Make changes</a>
+    </div>
+  </div>
+
+  <div class="uk-section uk-section-primary uk-flex uk-flex-middle uk-animation-fade" uk-height-viewport
+    id="introSection">
+    <div class="uk-width-1-1 uk-text-center">
+      <h1 class="uk-heading-large white" uk-scrollspy="cls: uk-animation-slide-left; repeat: false">Let's focus on these 4 key areas of your life.</h1>
+      <p class="uk-heading-medium white" uk-scrollspy="cls: uk-animation-fade; repeat: false;delay: 2000">Diet.</p>
+      <p class="uk-heading-medium white" uk-scrollspy="cls: uk-animation-fade; repeat: false;delay: 4000">Exercise.</p>
+      <p class="uk-heading-medium white" uk-scrollspy="cls: uk-animation-fade; repeat: false;delay: 6000">Work life.</p>
+      <p class="uk-heading-medium white" uk-scrollspy="cls: uk-animation-fade; repeat: false;delay: 8000">Social life.</p>
+      <p class="uk-heading-small white" uk-scrollspy="cls: uk-animation-slide-right; repeat: false;delay: 10000">We will suggest changes in each. It is up to you to implement them over one week.</p>
+      <a class="uk-button uk-button-primary uk-button-large myCta bg-white blue" uk-scrollspy="cls: uk-animation-fade; repeat: false;delay: 12000" href="#dietSection" uk-scroll>Diet</a>
+    </div>
+  </div>
+
+  <div class="uk-section uk-section-primary uk-flex uk-flex-middle uk-animation-fade" uk-height-viewport
+    id="dietSection">
+    <div class="uk-width-1-1 uk-text-center">
+      <h1 class="uk-heading-large white" uk-scrollspy="cls: uk-animation-slide-left; repeat: false">Let's focus on these 4 key areas of your life.</h1>
+      
+      <a class="uk-button uk-button-primary uk-button-large myCta bg-white blue" uk-scrollspy="cls: uk-animation-fade; repeat: false;delay: 12000" href="#exerciseSection" uk-scroll>Diet</a>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.4/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.4/js/uikit-icons.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+*{
+    font-family: 'Bebas Neue', cursive !important;
+}
+
+
+.uk-section-primary{
+    background-color: #3949ab !important;
+}
+.uk-text-lead {
+    font-size: 2.2rem !important;
+}
+
+
+.bg-blue{
+    background-color: #3949ab !important;
+}
+.bg-white{
+    background-color: white !important;
+}
+
+.white{
+    color: white !important;
+}
+
+.blue{
+    color: #3949ab !important;
+}
+.grey{
+    color: #424242 !important;
+}
+
+.myCta{
+    border-radius: 20px;
+    font-size: 1.7rem;
+
+}
+
+
+
+
